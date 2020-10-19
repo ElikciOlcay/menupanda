@@ -5,6 +5,7 @@ const PRODUCTS_QUERY = gql`
     query {
     categoriesList {
         items {
+        id    
         title
         }
     }

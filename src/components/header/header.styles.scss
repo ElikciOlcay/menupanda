@@ -1,4 +1,9 @@
-.header{
+.navbar{
     margin-bottom: 50px;
-    padding-top: 20px;
+    background-color: #b3dabc!important;
+    
+    .navbar-brand {
+        color: white;
+        font-weight: 600;
+    }
 }
