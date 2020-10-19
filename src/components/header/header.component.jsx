@@ -4,11 +4,8 @@ import './header.styles.scss';
 
 
 const Header = (props) => (
-    <div className='header'>
-        <div className="navbar">
-            <div className="logo">{props.logo}</div>
-            <button className="userIcon"></button>
-        </div>
+    <div className='container header'>
+        <h3>Pizzeria Venezia</h3>
     </div>
 )
 
